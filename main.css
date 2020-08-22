@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap);
+
+* {
+    font-family: 'Open Sans', sans-serif;
+   text-decoration: none;
+   margin: 1;
+   padding: 0;
+   box-sizing: border-box; 
+   font-size: 16px;
+}
+
+.menu-bar{
+    background-color: rgb(22, 50, 91);
+    display: flex;
+    padding:20px 0 0 120px;
+    position: fixed;
+    
+}
+.menu-links a{
+    color: white;
+    justify-items: space-around;
+    padding: 20px 0 0 20px;
+	font-style: italic bold;
+	
+}
+
+.btn2{
+    color: black;
+    background-color: #FF6347;
+    border-radius: 1px;
+    z-index: -5;
+	
+}
+.btn{
+      color: black;
+    background-color: #FF6347;
+    border-radius: 1px;
+    z-index: -5;
+	
+}
+.info{
+    background-color: rgb(22, 50, 91);
+    display: inline-flex;
+    color: white;
+    border-top-style: solid;
+    border-color: white;
+    height: 60vh;
+    
+}
+.info .words{
+    width: 70%;
+    padding: 130px 30px 10px 40px;
+}
+.image-container{
+    display:flex;
+}
+.image-container .blocks{
+    padding-left: 50px;
+}
+.info-container h2{
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 20px;
+}
+
+.next-gen-hiring{
+    background-color: rgb(236, 240, 254);
+}
+.next-gen-hiring h3{
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 20px;
+}
+.pictures{
+    display: flex;
+}
+.pictures .bloc{
+    width: 50%;
+}
+.schedule{
+    text-align:center;
+    line-height-step: 30vh;
+    background-color: #ecf0fe;
+    height: 40vh;
+}
+.schedule .meet{
+     color: black;
+    background-color: #FF6347;
+    border-radius: 1px;
+    z-index: -5;
+	
+} 
+.footer {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/d878614d97021fdeea6d1059797901a56ac871d8/bfc03/_next/static/images/footer-bg-552708bc98446e2327640a16897ccc19.png");
+    background-color: rgb(22, 50, 91);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 50vh;
+    position: relative;
+    
+}
+.footer img{
+    margin-top: 25vh;
+    width: 60px;
+    height: 60px;
+}
+.footer-links a{
+    color: white;
+}
